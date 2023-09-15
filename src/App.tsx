@@ -10,7 +10,7 @@ function App() {
         window.SpeechRecognition || (window as any).webkitSpeechRecognition;
       const recognition = new SpeechRecognition();
 
-      recognition.lang = "en-US";
+      recognition.lang = "pt-BR";
       recognition.continuous = true;
       recognition.interimResults = true;
 
